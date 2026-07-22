@@ -26,12 +26,12 @@ public class LoopsPrac {
 
         // Q) Print all even numbers till n 
 
-        // System.out.println("The even Numbers in " + number + ":");
-        // for(int counter = 0 ; counter <= number ; counter = counter + 1){
-        //     if (counter % 2 == 0){
-        //         System.out.println(counter);
-        //     }
-        // }
+        System.out.println("The even Numbers in " + number + ":");
+        for(int counter = 0 ; counter <= number ; counter = counter + 1){
+            if (counter % 2 == 0){
+                System.out.println(counter);
+            }
+        }
 
     }
 }
